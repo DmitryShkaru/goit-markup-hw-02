@@ -14,10 +14,7 @@
 }
 body {
   font-family: Roboto, sans-serif;
-  font-weight: Regular;
-  font-style: normal;
   font-size: 16px;
-  line-height: 1.5;
   background-color: #ffffff;
   color: var(--color-slate);
 }
@@ -46,8 +43,8 @@ body {
 }
 
 .naw-link {
-  font-style: normal;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
@@ -59,8 +56,7 @@ body {
   font-style: normal;
 }
 .address-link {
-  font-family: "Roboto";
-  font-style: normal;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
@@ -124,6 +120,7 @@ body {
 .text-in-section,
 .portfolio-options {
   letter-spacing: 0.02em;
+  line-height: 1.5;
   color: var(--color-slate);
 }
 .third-section {
@@ -151,6 +148,8 @@ body {
   color: var(--color-cloud);
 }
 .footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.22em;
   color: var(--color-cloud);
 }
 /**
